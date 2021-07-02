@@ -2,6 +2,9 @@
 
 Used to replace `resolve.alias` of `webpack.config.jS` with `paths` of `tsconfig.json`
 
+[Source ](https://github.com/sx6316/resolve-alias-from-ts-paths/blob/main/index.js)
+
+
 ## Install
 
 ```shell
@@ -44,7 +47,7 @@ const pathsToAlias = require('resolve-alias-from-ts-paths')
 
 module.exports = {
     // ...
-    plugins: [new MP({ aliasLog: true })]
+    plugins: [new pathsToAlias({ aliasLog: true })]
 }
 ```
 

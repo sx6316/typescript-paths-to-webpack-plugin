@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "sx6316",
   "license": "ISC",
   "dependencies": {
     "strip-json-comments": "^3.1.1"
