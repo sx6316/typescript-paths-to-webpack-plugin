@@ -1,4 +1,4 @@
-# resolve-alias-from-ts-paths
+# typescript-paths-to-alias-plugin
 
 Used to replace `resolve.alias` of `webpack.config.jS` with `paths` of `tsconfig.json`
 

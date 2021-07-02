@@ -1,7 +1,7 @@
 {
-  "name": "resolve-alias-from-ts-paths",
+  "name": "typescript-paths-to-alias-plugin",
   "version": "1.0.0",
-  "description": "Used to replace 'resolve.alias' of 'webpack.config.jS' with 'paths' of 'tsconfig.json'",
+  "description": "Used to replace 'resolve.alias' of 'webpack' with 'paths' of 'typescript'",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
