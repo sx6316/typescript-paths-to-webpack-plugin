@@ -1,14 +1,14 @@
-# typescript-paths-to-alias-plugin
+# typescript-paths-to-webpack-plugin
 
 Used to replace `resolve.alias` of `webpack.config.jS` with `paths` of `tsconfig.json`
 
-[Source ](https://github.com/sx6316/typescript-paths-to-alias-plugin/blob/main/index.js)
+[Source ](https://github.com/sx6316/typescript-paths-to-webpack-plugin/blob/main/index.js)
 
 
 ## Install
 
 ```shell
-npm install -D typescript-paths-to-alias-plugin
+npm install -D typescript-paths-to-webpack-plugin
 ```
 
 ## Example
@@ -43,7 +43,7 @@ The **`resolve.alias`** of `webpack` will become
 **`webpack.config.js`**
 
 ```javascript
-const pathsToAlias = require('typescript-paths-to-alias-plugin')
+const pathsToAlias = require('typescript-paths-to-webpack-plugin')
 
 module.exports = {
     // ...
@@ -54,7 +54,7 @@ module.exports = {
 or
 
 ```js
-const pathsToAlias = require('typescript-paths-to-alias-plugin')
+const pathsToAlias = require('typescript-paths-to-webpack-plugin')
 
 module.exports = {
     // ...

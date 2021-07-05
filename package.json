@@ -1,5 +1,5 @@
 {
-  "name": "typescript-paths-to-alias-plugin",
+  "name": "typescript-paths-to-webpack-plugin",
   "version": "1.0.0",
   "description": "Used to replace 'resolve.alias' of 'webpack' with 'paths' of 'typescript'",
   "main": "index.js",
