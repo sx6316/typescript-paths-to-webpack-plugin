@@ -69,6 +69,7 @@ class resolveAliasFromTsPaths {
 		compiler.options.resolve.alias = alias;
 	}
 	static getAlias() {
+		run();
 		return alias;
 	}
 }
